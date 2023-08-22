@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="new-york2.jpg">
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">BISWEALTH</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+        </ul>
+      
+        <img src="car4.jpg" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>THE WONDERFUL GOLD</h1>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events -->
+    <section class="event" id="contact">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="OIP3.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="new-york3.webp" height="140" width="230" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+
+            <!-- <div class="col">
+                <img src="new-york3.webp" height="140" width="230" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div> -->
+        </div>
+    </section>
+
+
+<!-- Explore -->
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae minus suscipit quae nam minima?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+
+    <!-- tours -->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming tours & destination</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam saepe minima repellendus error laudantium labore? Eveniet praesentium aliquam asperiores harum, numquam dignissimos voluptates, totam tempora ad dolore architecto aliquid?</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="OIP1.jpg" alt="">
+                    <img src="new-york2.jpg" height="145" alt="">
+                    <img src="OIP1.jpg"  alt="">
+                    <img src="new-york2.jpg" height="145" alt="" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer" id="contact">
+        <p>No 3, Awolowo Way Opp., Ikeja Lagos State. | Phone: +2347057323213 
+            | Email: abisolaa232@gmail.com
+        </p>
+
+        <p>Copywrite &copy; 2023 Outdoor Adventure</p>
+    </section>
+
+<script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+    <!-- <script src="../b-end\htpmod.js"></script> -->
+</body>
+</html>
